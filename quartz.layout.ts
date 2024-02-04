@@ -11,7 +11,6 @@ export const sharedPageComponents: SharedLayout = {
       "Web": "https://voitech.omg.lol/",
       "YouTube": "https://www.youtube.com/@voitech_",
     },
-    Component.RecentNotes(),
   }),
 }
 
