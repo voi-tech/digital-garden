@@ -1,3 +1,7 @@
+---
+aliases: 
+tags: 
+---
 # Citizen Code of Conduct
 
 ## 1. Purpose
