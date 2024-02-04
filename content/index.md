@@ -9,8 +9,5 @@ Jest to zbiór notatek często nieukończonych, nad którymi aktywnie pracuję. 
 
 ---
 
-```dataview
-LIST FROM "1 Projects/digital-garden/content"
-WHERE file.name != this.file.name
-SORT file.mday desc
-```
+- [[Today I Learned]]
+- 
