@@ -11,6 +11,7 @@ export const sharedPageComponents: SharedLayout = {
       "Web": "https://voitech.omg.lol/",
       "YouTube": "https://www.youtube.com/@voitech_",
     },
+    Component.RecentNotes(),
   }),
 }
 
@@ -30,10 +31,9 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
+//    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
-    Component.RecentNotes(),
   ],
 }
 
