@@ -4,4 +4,13 @@ tags:
 title: voitech
 ---
 
-Digital Garden (cyfrowy ogród) to miejsce, gdzie dzielę się swoją wiedzą w formie notatek często nieukończonych w trakcie tworzenia. Jak sama nazwa wskazuje, notatki tutaj wzrastają z czasem, a niektóre nigdy nie osiągną swojego ostatecznego stanu.
+Witaj w moim [[Digital Garden|cyfrowym ogrodzie]]! Jest to miejsce, gdzie dzielę się swoimi przemyśleniami na tematy związane z nauką i technologią, produktywnością itp.
+Jest to zbiór notatek często nieukończonych, nad którymi aktywnie pracuję. Wzrastają one z czasem, a niektóre nigdy nie osiągną stanu ostatecznego.
+
+---
+
+```dataview
+LIST FROM "1 Projects/digital-garden/content"
+WHERE file.name != this.file.name
+SORT file.mday desc
+```
